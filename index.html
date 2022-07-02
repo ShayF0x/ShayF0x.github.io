@@ -1,7 +1,30 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="ressources/css/main.css">
+    <link id="theme" rel="stylesheet" href="ressources/css/themes/1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" crossorigin="anonymous">
+    <title>ShayFox's Website !</title>
+    <meta property="og:title" content="ShayFox's Website !">
+    <meta property="og:description" content="Some sh***">
+</head>
+
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <div id="particles-js"></div> <!-- div used to render particles in function particlesJS() -->
+    <div class="toolBar">
+        <button id="themeButton" onclick="changeTheme()">
+            <i class="fa-solid fa-palette" id="themeIconButton"></i>
+        </button>
+    </div>
+    <div class="p">
+        <p>
+            Vous êtes sur le Github.io de ShayFox..
+        </p>
+    </div>
+    <div id="themeValue"></div>
+
+    <script type="text/javascript" src="ressources/js/themes.js"></script>
 </body>
+
 </html>

@@ -1,0 +1,11 @@
+html{
+    --text-color: #f5e27f;
+
+    --dot-color:#ffe34d;
+    --line-color:#f5e27f;
+
+    --background-color:#180c08;
+
+    --box-color: rgba(34, 21, 17, 0.8);
+    --box-border-color: #ffe34d;
+}
